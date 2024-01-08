@@ -91,18 +91,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 10px;
 }
 
 .holiday-deal-img img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 48px;
 }
 
 /* midnight party styls */
 
 .welcome-party {
-    background-image: url('/resources/Vectorrr.png');
+    background-image: url('../resources/Vectorrr.png');
     height: 600px;
     background-size: 100%;
     background-repeat: no-repeat;
