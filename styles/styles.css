@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
+}
+
+* {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 
@@ -92,8 +97,10 @@
     margin-right: auto;
 }
 
+/* midnight party styls */
+
 .welcome-party {
-    background-image: url(/resources/Vectorrr.png);
+    background-image: url('/resources/Vectorrr.png');
     height: 600px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -117,7 +124,9 @@
     line-height: 88px;
     /* 137.5% */
     letter-spacing: 7.04px;
-    padding-left: 100px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
 
 }
 
@@ -130,7 +139,9 @@
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 48px;
 }
 
 .welcome-party-text a {
@@ -158,7 +169,143 @@
     flex-shrink: 0;
 }
 
-.welcome-party .welcome-party-img img{
-   width: 100%;
-   padding: 60px 0 35px 0;
+.welcome-party .welcome-party-img img {
+    width: 100%;
+    padding: 60px 0 35px 0;
+}
+
+/* place styles */
+.place {
+    height: 482px;
+    background-color: rgba(255, 0, 0, 0.10);
+}
+
+.place-text {
+    padding-top: 100px;
+}
+
+.place-text span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.place-text p,
+address {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.place-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin-top: 50px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Best offer style */
+
+.best-offer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    /* gap: 50px; */
+}
+
+.best-offer .best-offer-text h4 {
+
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.best-offer .best-offer-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best-offer .best-offer-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.best-offer .best-offer-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 100px;
+    margin-left: 40px;
+
+}
+
+.best-offer .best-offer-img img {
+    border-radius: 364.844px;
+    margin: 49px;
+}
+
+.best-offer .happy-new-year-text .year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer .happy-new-year-text .year-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.best-offer .happy-new-year-text .happy-new-year-img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
