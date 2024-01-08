@@ -11,6 +11,7 @@
     max-width: 1320px;
     width: 80%;
     margin: 0 auto;
+    border-radius: 16px;
 }
 
 /* cover styles */
@@ -20,8 +21,9 @@
     background-image: url('/resources/Banner\ Image.png');
     background-position: center;
     height: 600px;
-    width: 1020px;
-    border-radius: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 
 
 }
@@ -90,7 +92,36 @@
     margin-right: auto;
 }
 
-.welcome-party{
-    background: #000;
+.welcome-party {
     background-image: url(/resources/Vectorrr.png);
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
 }
+
+#party {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+
+}
+
+.welcome-party-text h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 100px;
+
+}
+
+.welcome-party .welcome-party-img img {
+}
+
+]
