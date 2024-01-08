@@ -17,6 +17,7 @@
     width: 80%;
     margin: 0 auto;
     border-radius: 16px;
+
 }
 
 /* cover styles */
@@ -53,7 +54,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-    
+
 }
 
 /* holiday-deal and new year img styles */
@@ -362,24 +363,128 @@ address {
 
 
 
-/* practice-styles */
+/* proftolio-styles */
 
-.practice-img{
-    /* display: flex; */
-    max-width: 80%;
+.proftolio {
+
+    margin-top: 100px;
 
 }
 
-.practice-img .img-first{
+.proftolio .img-first {
     display: flex;
     gap: 24px;
-    row-gap: 100px;
     margin-bottom: 24px;
 
 }
 
-.practice-img .img-second{
+.proftolio .img-second {
     display: flex;
     gap: 24px;
+
+}
+
+.proftolio-text h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.proftolio-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.proftolio-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 22px 0;
+}
+
+/* Subscribe style */
+
+.subscribe {
+
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    margin-top: 120px;
+
+}
+
+.subscribe .subscribe-img {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+
+}
+
+.subscribe h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+    padding: 22px 100px 0;
+}
+
+.subscribe .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.subscribe .email .email-box,
+button {
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+
+}
+
+.subscribe .email .email-box input {
+    border: none;
+    padding-left: 20px;
+    background: #FFF;
+    border: none;
+    border-radius: 50px;
+}
+
+.subscribe .email .email-box button {
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
 
 }
