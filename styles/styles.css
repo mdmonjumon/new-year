@@ -493,6 +493,17 @@ button {
 
 /* footer styles */
 
+/* border-radius: 16px; */
+
+.footer-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+
 footer {
     width: 1600px;
     height: 609px;
