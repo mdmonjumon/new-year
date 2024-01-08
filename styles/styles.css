@@ -121,7 +121,44 @@
 
 }
 
-.welcome-party .welcome-party-img img {
+.welcome-party-text p {
+
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-left: 100px;
 }
 
-]
+.welcome-party-text a {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 120px;
+
+}
+
+.welcome-party .welcome-party-img {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.welcome-party .welcome-party-img img{
+   width: 100%;
+   padding: 60px 0 35px 0;
+}
