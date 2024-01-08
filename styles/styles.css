@@ -23,7 +23,7 @@
 
 .cover {
 
-    background-image: url('/resources/Banner\Image.png');
+    background-image: url('/resources/Banner\ Image.png');
     background-position: center;
     height: 600px;
     background-size: 100%;
@@ -53,6 +53,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+    
 }
 
 /* holiday-deal and new year img styles */
@@ -356,4 +357,29 @@ address {
     line-height: 32px;
     /* 160% */
     margin-top: 28px;
+
+}
+
+
+
+/* practice-styles */
+
+.practice-img{
+    /* display: flex; */
+    max-width: 80%;
+
+}
+
+.practice-img .img-first{
+    display: flex;
+    gap: 24px;
+    row-gap: 100px;
+    margin-bottom: 24px;
+
+}
+
+.practice-img .img-second{
+    display: flex;
+    gap: 24px;
+
 }
